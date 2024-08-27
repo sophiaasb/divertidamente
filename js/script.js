@@ -1,17 +1,17 @@
 //DOM
 
-const silhueta = document.querySelector('#sil')
-const raiva = document.querySelector('#ang')
-const alegria = document.querySelector('#hap')
-const tristeza = document.querySelector('#sad')
-const nojo = document.querySelector('#ick')
+const silhueta = document.querySelector('#silhueta')
+const raiva = document.querySelector('#raiva')
+const alegria = document.querySelector('#alegria')
+const tristeza = document.querySelector('#tristeza')
+const nojo = document.querySelector('#nojo')
 
 // evento
 
-raiva.addEventListener('click', ang)
-alegria.addEventListener('click', hap)
-tristeza.addEventListener('click', sad)
-nojo.addEventListener('click', ick)
+raiva.addEventListener('click', raiva)
+alegria.addEventListener('click', alegria)
+tristeza.addEventListener('click', tristeza)
+nojo.addEventListener('click', nojo)
 
 // funções
 
