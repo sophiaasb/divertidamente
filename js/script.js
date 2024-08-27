@@ -1,32 +1,32 @@
 //DOM
 
-const silhueta = document.querySelector('#silhueta')
-const raiva = document.querySelector('#raiva')
-const alegria = document.querySelector('#alegria')
-const tristeza = document.querySelector('#tristeza')
-const nojo = document.querySelector('#nojo')
+const silhueta = document.querySelector('#s')
+const raiva = document.querySelector('#r')
+const alegria = document.querySelector('#a')
+const tristeza = document.querySelector('#t')
+const nojo = document.querySelector('#n')
 
 // evento
 
-raiva.addEventListener('click', raiva)
-alegria.addEventListener('click', alegria)
-tristeza.addEventListener('click', tristeza)
-nojo.addEventListener('click', nojo)
+raiva.addEventListener('click', r)
+alegria.addEventListener('click', a)
+tristeza.addEventListener('click', t)
+nojo.addEventListener('click', n)
 
 // funções
 
-function raiva(){
+function r(){
     silhueta.src='images/raiva.png'
 }
 
-function alegria(){
+function a(){
     silhueta.src='images/alegria.png'
 }
 
-function tristeza(){
+function t(){
     silhueta.src='images/tristeza.png'
 }
 
-function nojo(){
+function n(){
     silhueta.src='images/nojo.png'
 }
