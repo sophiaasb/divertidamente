@@ -7,28 +7,34 @@ body{
 }
 
 .central{
-    width: 200px;
+    width: 600px;
     background: white;
     border-radius: 20px;
     box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.555);
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: inherit;
     gap: 10px;
     padding: 10px;
 }
 
 img {
-    width: 100px;
+    width: 150px;
     height: auto; 
   }
   
 
 .central button{
     width: 100px;
-    background: lightsteelblue;
+    background: rgb(255, 0, 0);
     font-size: 18px;
-    border-radius: 8px;
+    border: none;
     cursor: pointer;
+    transition: 0.5s
+}
+
+.central button:hover{
+    background: pink;
+    transform: translateY(-2px);
 }
