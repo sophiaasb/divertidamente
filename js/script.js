@@ -2,14 +2,14 @@
 
 const silhueta = document.querySelector('#sil')
 const raiva = document.querySelector('#ang')
-const felicidade = document.querySelector('#hap')
+const alegria = document.querySelector('#hap')
 const tristeza = document.querySelector('#sad')
 const nojo = document.querySelector('#ick')
 
 // evento
 
 raiva.addEventListener('click', ang)
-felicidade.addEventListener('click', hap)
+alegria.addEventListener('click', hap)
 tristeza.addEventListener('click', sad)
 nojo.addEventListener('click', ick)
 
@@ -20,7 +20,7 @@ function ang(){
 }
 
 function hap(){
-    silhueta.src='images/felicidade.png'
+    silhueta.src='images/alegria.png'
 }
 
 function sad(){

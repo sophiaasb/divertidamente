@@ -27,8 +27,8 @@ img {
 
 .central button{
     width: 100px;
-    background: rgb(0, 160, 223);
+    background: lightsteelblue;
     font-size: 18px;
-    border-radius: 10px;
+    border-radius: 8px;
     cursor: pointer;
 }
