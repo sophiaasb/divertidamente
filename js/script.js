@@ -15,18 +15,18 @@ nojo.addEventListener('click', nojo)
 
 // funções
 
-function ang(){
+function raiva(){
     silhueta.src='images/raiva.png'
 }
 
-function hap(){
+function alegria(){
     silhueta.src='images/alegria.png'
 }
 
-function sad(){
+function tristeza(){
     silhueta.src='images/tristeza.png'
 }
 
-function ick(){
+function nojo(){
     silhueta.src='images/nojo.png'
 }
