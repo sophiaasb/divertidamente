@@ -11,7 +11,7 @@ const nojo = document.querySelector('#ick')
 raiva.addEventListener('click', ang)
 felicidade.addEventListener('click', hap)
 tristeza.addEventListener('click', sad)
-nojo.addEventListener('click', nojo)
+nojo.addEventListener('click', ick)
 
 // funções
 
