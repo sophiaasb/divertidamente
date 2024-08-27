@@ -7,7 +7,7 @@ body{
 }
 
 .central{
-    width: 400px;
+    width: 200px;
     background: white;
     border-radius: 20px;
     box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.555);
@@ -19,10 +19,16 @@ body{
     padding: 10px;
 }
 
+img {
+    width: 100px;
+    height: auto; 
+  }
+  
+
 .central button{
-    width: 150px;
+    width: 100px;
     background: lightskyblue;
-    font-size: 30px;
+    font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
 }
